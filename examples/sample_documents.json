@@ -1,0 +1,14 @@
+[
+  {
+    "id": "policy",
+    "text": "Our refund policy allows returns within 30 days of purchase. Refunds for digital goods are processed within 14 business days after approval."
+  },
+  {
+    "id": "warranty",
+    "text": "All hardware products include a one year warranty covering manufacturing defects. Accidental damage is not covered."
+  },
+  {
+    "id": "shipping",
+    "text": "Standard shipping takes 5-7 business days. Expedited shipping is available at checkout for an additional fee."
+  }
+]

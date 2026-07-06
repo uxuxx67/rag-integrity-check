@@ -1,0 +1,24 @@
+# Example regression set for RAG Integrity Check.
+# Each case describes a question, phrases the real answer must contain,
+# sources it must cite, and phrases it must never contain.
+cases:
+  - question: "What is our refund policy?"
+    expected_answer_contains:
+      - "14 business days"
+    expected_sources:
+      - "policy"
+    forbidden_phrases:
+      - "guaranteed instant refund"
+  - question: "How long is the product warranty?"
+    expected_answer_contains:
+      - "one year"
+    expected_sources:
+      - "warranty"
+    forbidden_phrases: []
+  - question: "How long does standard shipping take?"
+    expected_answer_contains:
+      - "5-7 business days"
+    expected_sources:
+      - "shipping"
+    forbidden_phrases:
+      - "same day"
